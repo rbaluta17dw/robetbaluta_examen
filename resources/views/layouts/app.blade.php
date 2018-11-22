@@ -13,10 +13,10 @@
           </div>
 
           <div class="links">
-						<a href="/">Hoteles de 1ª</a>
-						<a href="#">Clientes</a>
-						<a href="#">Nuevo Cliente</a>
-						<a href="#">Reserva</a>
+						<a href="/hotels">Hoteles de 1ª</a>
+						<a href="/clientes">Clientes</a>
+						<a href="/cliente">Nuevo Cliente</a>
+						<a href="/reserva">Reserva</a>
           </div>
           <hr><br><br>
 					<div class="op">

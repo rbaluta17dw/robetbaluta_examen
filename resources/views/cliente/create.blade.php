@@ -5,7 +5,7 @@
 @section('content')
 
   <h4>Cliente nuevo</h4>
-  <form action="" method="post">
+  <form action="/cliente" method="post">
     @csrf
     NIF:<br>
     <input type="text" name="nif" value="23452345"><br><br>
