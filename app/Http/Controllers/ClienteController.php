@@ -29,9 +29,15 @@ class ClienteController extends Controller
 		return $this->index();
 	}
 
-	public function reserva()
+	public function reserva($id)
 	{
-		$clientes = Cliente::where($id);
+
+		$cliente = Cliente::find($id);
+
+		return view('reserva/list', [
+			'cliente' => $cliente
+		]);
+		
 	}
 
 }

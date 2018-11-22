@@ -8,6 +8,6 @@ class Hotel extends Model
 {
 	public function clientes()
 	{
-		return $this->belongsToMany('App\Cliente');
+		return $this->belongsToMany('App\Cliente')->withPivot('fecha', 'numhabitaciones');
 	}
 }
